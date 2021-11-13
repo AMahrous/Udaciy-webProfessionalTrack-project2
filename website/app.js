@@ -1,6 +1,5 @@
 /* Global Variables */
 
-//const { fetch } = require(['cross-fetch']);
 let city_name = "Cairo";
 const API_key = "50cb8d8f87c1d0e56c798e3ceefca76f";
 let base_url = `https://api.openweathermap.org/data/2.5/weather?q=`;
