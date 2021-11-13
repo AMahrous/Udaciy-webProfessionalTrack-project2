@@ -1,11 +1,12 @@
 /* Global Variables */
 
 let city_name = "Cairo";
-const API_key = "50cb8d8f87c1d0e56c798e3ceefca76f";
+const API_key = "50cb8d8f87c1d0e56c798e3ceefca76f&units=imperial";
 let base_url = `https://api.openweathermap.org/data/2.5/weather?q=`;
 
 // Create a new date instance dynamically with JS
 let d = new Date();
+d.setMonth(d.getMonth()+1);
 let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
 
 // Event listener to add function to existing HTML DOM element
